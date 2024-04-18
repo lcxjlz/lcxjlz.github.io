@@ -1744,9 +1744,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1713439682306),
+    lastupdate: new Date(1713441504375),
     sidebar: {
-      for_page: ["blogger","category","music","webinfo","lastupdate"],
+      for_page: ["blogger","category","webinfo","lastupdate"],
       for_post: ["toc"],
       webinfo: {
         lastupd: {
@@ -2171,7 +2171,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </head>
   <body itemscope itemtype="http://schema.org/WebPage">
     <!-- import body_begin begin-->
-        <script>addEventListener("DOMContentLoaded",function(){let models=[{width:380,height:600,bottom:"0px",right:"0px",role:"https://gcore.jsdelivr.net/gh/lcxjlz/blog_source/m16a1/model0.json",background:"",opacity:1,mobile:false,draggable:true,scale:0.15},{width:380,height:600,bottom:"0px",right:"0px",role:"https://gcore.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets/kelifulan_3/kelifulan_3.model3.json",background:"",opacity:1,mobile:false,draggable:true,scale:0.15}];new Live2dLoader(models)})</script>
+        <script>addEventListener("DOMContentLoaded",function(){let models=[{width:380,height:600,bottom:"0px",right:"0px",role:"https://gcore.jsdelivr.net/gh/alg-wiki/AzurLaneL2DViewer@gh-pages/assets/kelifulan_3/kelifulan_3.model3.json",background:"",opacity:1,mobile:false,draggable:true,scale:0.15}];new Live2dLoader(models)})</script>
     <!-- import body_begin end-->
     <!-- Custom Files bodyBegin begin-->
     
@@ -2621,41 +2621,6 @@ Qu...
     
     
       
-
-  <section class='widget desktop mobile  music'>
-    
-
-    <div class='content'>
-      
-
-  
-    <meting-js
-      theme='#1BCDFC'
-      autoplay='false'
-      volume='0.7'
-      loop='all'
-      order='list'
-      fixed='true'
-      list-max-height='320px'
-      server='netease'
-      type='playlist'
-      id='287402109'
-      list-folded='true'>
-    </meting-js>
-  
-
-
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
 <section class="widget desktop pjax">
   
   <header>
@@ -3081,7 +3046,7 @@ Qu...
   function pjax_giscus() {
     const HEAD = check_giscus();
     if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"}},pdata.commentConfig)
+    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"lcxjlz/blog_source","repo-id":"R_kgDOLvud2w","category":"Announcements","category-id":"DIC_kwDOLvud284CexdU","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","lang":"zh-CN"},pdata.commentConfig)
     const script = document.createElement('script');
     script.setAttribute('src', 'https://giscus.app/client.js');
     Object.keys(cfg).forEach(k=>{
